@@ -117,6 +117,13 @@ style: |
     font-size: 0.7em;
     color: #a0aec0;
   }
+  .two-columns {
+    display: flex;
+  }
+  .two-columns > div {
+    flex: 1;
+    padding: 0 20px;
+  }
 ---
 
 <!--
@@ -203,26 +210,25 @@ Regular content goes here with:
 
 <!-- Two column layout example -->
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-
+<div class="two-columns">
 <div>
 
 ### Left Column
+
 - Point 1
 - Point 2
 - Point 3
 
 </div>
-
 <div>
 
 ### Right Column
+
 - Point A
 - Point B
 - Point C
 
 </div>
-
 </div>
 
 ---
@@ -304,4 +310,49 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
   - Add your organization logos by downloading from links-to-assets.md
   - Modify footer content as needed
   - Add custom CSS for specific layouts
+
+  IMAGE SYNTAX QUICK REFERENCE:
+
+  Inline images:
+  - ![w:400px](image.jpg) - Resize inline image
+
+  Background images:
+  - ![bg](image.jpg) - Full background
+  - ![bg contain](image.jpg) - Fit background
+
+  Split backgrounds (content + image side-by-side):
+  - ![bg right:33%](image.jpg) - Image 33% on right, content on left
+  - ![bg left:40%](image.jpg) - Image 40% on left, content on right
+  - Perfect for QR codes, diagrams, photos alongside text
+
+  Two-column text layouts:
+  - Use <div class="two-columns"> for equal-width text columns
+  - See "Section 2: Main Content" for example
+
+  Image filters:
+  - ![blur:10px](image.jpg)
+  - ![brightness:1.5 sepia:50%](image.jpg) - Multiple filters
+
+  DIRECTIVES QUICK REFERENCE:
+
+  Spot directives (underscore = current slide only):
+  - <!-- _paginate: false --> - Hide page number on this slide
+  - <!-- _class: lead --> - Apply class to this slide
+  - <!-- _backgroundColor: black --> - Background color for this slide
+
+  Pagination options:
+  - paginate: true - Show and increment
+  - paginate: false - Hide but increment
+  - paginate: skip - Hide and don't increment
+  - paginate: hold - Show but don't increment
+
+  Headers and footers:
+  - header: '**Title**' - Add header to all slides
+  - footer: 'Name | Date' - Add footer to all slides
+
+  Styling:
+  - <style>...</style> - Global style for all slides
+  - <style scoped>...</style> - Style for current slide only
+
+  See core-foundation/directives.md and core-foundation/theming.md for details
 -->

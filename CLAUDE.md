@@ -155,23 +155,80 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 ```
 
 ### Two-Column Layout
+Use the `.two-columns` class for reliable two-column layouts:
 ```html
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-  <div>Left content</div>
-  <div>Right content</div>
+<div class="two-columns">
+<div>
+
+### Left Column
+
+- Point 1
+- Point 2
+- Point 3
+
+</div>
+<div>
+
+### Right Column
+
+- Point A
+- Point B
+- Point C
+
+</div>
 </div>
 ```
 
+**Note:** The `.two-columns` class uses flexbox and is more reliable than inline grid styles in Marp. Make sure to include blank lines between HTML tags and markdown content for proper rendering.
+
 ### Images
+
+**Inline Images:**
 ```markdown
 ![width:600px](path/to/image.png)
+![w:400px h:300px](image.jpg)
+```
+
+**Background Images:**
+```markdown
+![bg](background-image.jpg)
+![bg contain](background-image.jpg)
+![bg fit](background-image.jpg)
+```
+
+**Split Backgrounds (Content + Image Side-by-Side):**
+```markdown
 ![bg right](background-image.jpg)
+![bg left](background-image.jpg)
+![bg right:33%](background-image.jpg)  <!-- Image takes 33% on right -->
+![bg left:40%](background-image.jpg)   <!-- Image takes 40% on left -->
+```
+
+**Split backgrounds** are ideal for slides with both content and images (like QR codes, diagrams, or photos). The image becomes a background on the specified side while content stays on the opposite side. Use percentage values to control the split ratio.
+
+**Example - Presenter slide with QR code:**
+```markdown
+## About the Presenter
+
+![bg right:33% width:280px](assets/linkedin-qr-code.jpg)
+
+**Dr. MTD LAKSHAN**
+- Board Certified Consultant
+- Senior Lecturer
+```
+
+**Image Filters:**
+```markdown
+![blur:10px](image.jpg)
+![brightness:1.5](image.jpg)
+![grayscale:1](image.jpg)
 ```
 
 ### Custom Classes
 - `.author-info` - Author credentials styling
 - `.contact-info` - Contact details styling
 - `.footer` - Footer positioning
+- `.two-columns` - Two-column flexbox layout (equal width columns with padding)
 
 ## Important Notes
 
@@ -181,11 +238,78 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 - **Master template updates** - When branding changes, update master-template.md; existing presentations can rebase to inherit changes
 - **One presentation = One branch** - Scalable, searchable via Git, complete isolation
 
+## Advanced Marp Features
+
+### Directives
+Marp uses "directives" to control presentation settings. See `core-foundation/directives.md` for full details.
+
+**Spot Directives** (apply to single slide only):
+```markdown
+<!-- _paginate: false -->  <!-- Hide page number on this slide only -->
+<!-- _class: lead -->       <!-- Apply 'lead' class to this slide only -->
+<!-- _backgroundColor: black -->
+```
+
+**Pagination Options:**
+- `paginate: true` - Show page number and increment
+- `paginate: false` - Hide page number but still increment
+- `paginate: skip` - Hide page number and don't increment
+- `paginate: hold` - Show page number but don't increment
+
+**Headers and Footers:**
+```markdown
+---
+header: '**Presentation Title**'
+footer: '![w:20px](logo.png) Company Name'
+---
+```
+
+**Heading Divider** (auto-create slides at headings):
+```markdown
+---
+headingDivider: 2
+---
+# Slide 1
+## Slide 2  <!-- Automatically creates new slide -->
+### Content in Slide 2
+```
+
+### Theming and Styling
+See `core-foundation/theming.md` for comprehensive theming documentation.
+
+**Inline Style Tweaks:**
+```markdown
+<style>
+section {
+  background: linear-gradient(to bottom, #1e1e2e, #2e2e3e);
+}
+</style>
+```
+
+**Scoped Style** (current slide only):
+```markdown
+<style scoped>
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+</style>
+```
+
+**Custom Classes:**
+```markdown
+<!-- _class: lead -->
+# Centered Title Slide
+```
+
 ## Reference Documentation
 
 For detailed workflows and troubleshooting, refer to:
 - `core-foundation/PRESENTATION-WORKFLOW-SOP.md` - Complete SOP with step-by-step procedures
 - `core-foundation/How-to-Use-Marp.md` - Technical Marp syntax guide
+- `core-foundation/directives.md` - Complete directives reference (pagination, headers, footers, styling)
+- `core-foundation/image-how-to.md` - Comprehensive image syntax guide
+- `core-foundation/theming.md` - Theme CSS creation and customization
 - `core-foundation/sample-purple-presentation.md` - Working example
 
 ## Troubleshooting Quick Fixes

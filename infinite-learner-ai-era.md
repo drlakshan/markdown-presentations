@@ -117,15 +117,23 @@ style: |
     font-size: 0.7em;
     color: #a0aec0;
   }
+  .two-columns {
+    display: flex;
+  }
+  .two-columns > div {
+    flex: 1;
+    padding: 0 20px;
+  }
 ---
 
 <!--
-  MARP MASTER TEMPLATE
-  Dr. MTD Lakshan
-
-  This is your master template. Branch off from this for each new presentation.
-  Usage: git checkout -b <presentation-name>
+  Presentation: Becoming an Infinite Learner in the AI Era
+  Event: University of Moratuwa
+  Date: December 2025
+  Presenter: Dr. MTD Lakshan
 -->
+
+<!-- _paginate: false -->
 
 # Becoming an Infinite Learner in the AI Era
 
@@ -138,6 +146,8 @@ Presented by **Dr. MTD Lakshan**
 <!-- Author slide with credentials -->
 
 ## About the Presenter
+
+![bg right:33% width:280px](assets/linkedin-qr-code.jpg)
 
 <div class="author-info">
 
@@ -152,77 +162,55 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 </div>
 
-<div class="contact-info">
-
-**Connect:**
-[LinkedIn](https://www.linkedin.com/in/mtd-lakshan-78738213) |
-[health.lk](https://www.health.lk) |
-[Email](mailto:lakshan@health.lk) |
-[Infinite Learner AI](https://ilai.academy/)
-
-</div>
 
 ---
 
 ## Agenda
 
-1. Introduction
-2. Main Topic 1
-3. Main Topic 2
-4. Discussion
-5. Conclusion
+1. What is this talk is NOT about
+2. What is it about
+3. 3 learning priniciples
+4. 1 example each how AI can help you
+5. Summarise
 6. Q&A
 
 ---
 
-# Section 1: Introduction
+# What this is NOT about
 
 <!-- Your content here -->
 
-- Key point 1
-- Key point 2
-- Key point 3
+- Not an Engineering Lecture on ML/Deep Learning / LLMs etc
+- Not about all the tools available and which is the best one to use
 
-> Important quote or highlight
 
----
-
-## Subsection Example
-
-### Topic Details
-
-Regular content goes here with:
-- Bullet points
-- **Bold text** for emphasis
-- *Italic text* for subtle emphasis
-- `Code or technical terms`
+> We do not have a problem with AI itself but a problem of INTEGRATION
 
 ---
 
-# Section 2: Main Content
 
-<!-- Two column layout example -->
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+# Whats it About
 
+<div class="two-columns">
 <div>
 
 ### Left Column
+
 - Point 1
 - Point 2
 - Point 3
 
 </div>
-
 <div>
 
 ### Right Column
+
 - Point A
 - Point B
 - Point C
 
 </div>
-
 </div>
 
 ---
