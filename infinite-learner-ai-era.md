@@ -147,7 +147,7 @@ Presented by **Dr. MTD Lakshan**
 
 ## About the Presenter
 
-![bg right:33% width:280px](assets/linkedin-qr-code.jpg)
+![bg right:40% width:400px](assets/linkedin-qr-code.jpg)
 
 <div class="author-info">
 
@@ -169,7 +169,7 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 1. What is this talk is NOT about
 2. What is it about
-3. 3 learning priniciples
+3. 3 learning principles
 4. 1 example each how AI can help you
 5. Summarise
 6. Q&A
@@ -192,54 +192,26 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 # Whats it About
 
-<div class="two-columns">
-<div>
-
-### Left Column
-
-- Point 1
-- Point 2
-- Point 3
-
-</div>
-<div>
-
-### Right Column
-
-- Point A
-- Point B
-- Point C
-
-</div>
-</div>
+How to face the Astro Teller Curve
 
 ---
 
-## Data Visualization Example
 
-### Performance Metrics
-
-Metric | Q1 | Q2 | Q3 | Q4
--------|----|----|----|----|
-Growth | 15% | 23% | 31% | 28%
-Satisfaction | 87% | 89% | 92% | 94%
-Retention | 78% | 82% | 85% | 88%
+# Astro-Teller Curve
 
 ---
 
-## Key Takeaways
+![bg contain](assets/astro-teller-curve.png)
 
-1. **First Important Point**
-   - Supporting detail
-   - Example or evidence
+---
+# Principle 1 : Deliberate Practice
 
-2. **Second Important Point**
-   - Supporting detail
-   - Example or evidence
+---
 
-3. **Third Important Point**
-   - Supporting detail
-   - Example or evidence
+# Principle 2 : Multimodal Interaction
+
+---
+# Principle 3 : Zone of Proximal Development
 
 ---
 
@@ -247,11 +219,11 @@ Retention | 78% | 82% | 85% | 88%
 
 ## Summary
 
-- Main conclusion 1
-- Main conclusion 2
-- Main conclusion 3
+- AI can be used helpfully if properly planned
+- Cognitive traps: cognitive debt, cognitive obesity, inappropriate cognitive offloading
+- It is imperative we take action today
 
-> "Wisdom shines forth everywhere" - Buddhih Sarvatra Bhrajate
+> "AI can be a FRIEND and a FOE" - MTD Lakshan
 
 ---
 
@@ -275,21 +247,3 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 - Infinite Learner AI: [ilai.academy](https://ilai.academy/)
 
 </div>
-
----
-
-<!--
-  TEMPLATE NOTES:
-
-  1. Branch off for each new presentation: git checkout -b <presentation-name>
-  2. Edit content while maintaining brand styling
-  3. Use Claude Code for formatting assistance
-  4. Export using: marp master-template.md --pdf
-  5. Never merge presentation branches back to master
-
-  CUSTOMIZATION:
-  - Adjust colors in the style section at the top
-  - Add your organization logos by downloading from links-to-assets.md
-  - Modify footer content as needed
-  - Add custom CSS for specific layouts
--->
