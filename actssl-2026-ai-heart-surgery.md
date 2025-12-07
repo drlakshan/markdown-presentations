@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: default
 paginate: true
 style: |
   section {
