@@ -231,11 +231,11 @@ Regular content goes here with:
 
 ### Performance Metrics
 
-| Metric | Q1 | Q2 | Q3 | Q4 |
-|--------|----|----|----|----|
-| Growth | 15% | 23% | 31% | 28% |
-| Satisfaction | 87% | 89% | 92% | 94% |
-| Retention | 78% | 82% | 85% | 88% |
+Metric | Q1 | Q2 | Q3 | Q4
+-------|----|----|----|----|
+Growth | 15% | 23% | 31% | 28%
+Satisfaction | 87% | 89% | 92% | 94%
+Retention | 78% | 82% | 85% | 88%
 
 ---
 
