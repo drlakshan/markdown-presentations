@@ -77,14 +77,20 @@ style: |
   }
   th {
     background-color: #6c71c4;
-    color: #1e1e2e;
+    color: #ffffff;
     padding: 12px;
     font-weight: 700;
+    font-size: 28px;
   }
   td {
-    border: 1px solid #45475a;
-    padding: 10px;
+    background-color: #313244;
+    border: 1px solid #6c71c4;
+    padding: 12px;
     color: #cdd6f4;
+    font-size: 26px;
+  }
+  tr:nth-child(even) td {
+    background-color: #45475a;
   }
   a {
     color: #a6adc8;
