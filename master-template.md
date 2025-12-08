@@ -127,17 +127,16 @@ style: |
 ---
 
 <!--
-  Presentation: Becoming an Infinite Learner in the AI Era
-  Event: University of Moratuwa
-  Date: December 2025
-  Presenter: Dr. MTD Lakshan
+  MARP MASTER TEMPLATE
+  Dr. MTD Lakshan
+
+  This is your master template. Branch off from this for each new presentation.
+  Usage: git checkout -b <presentation-name>
 -->
 
-<!-- _paginate: false -->
+# Presentation Title
 
-# Becoming an Infinite Learner in the AI Era
-
-**University of Moratuwa | December 2025**
+**Subtitle or Topic**
 
 Presented by **Dr. MTD Lakshan**
 
@@ -146,8 +145,6 @@ Presented by **Dr. MTD Lakshan**
 <!-- Author slide with credentials -->
 
 ## About the Presenter
-
-![bg right:40% width:400px](assets/linkedin-qr-code.jpg)
 
 <div class="author-info">
 
@@ -162,56 +159,105 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 </div>
 
+<div class="contact-info">
+
+**Connect:**
+[LinkedIn](https://www.linkedin.com/in/mtd-lakshan-78738213) |
+[health.lk](https://www.health.lk) |
+[Email](mailto:lakshan@health.lk) |
+[Infinite Learner AI](https://ilai.academy/)
+
+</div>
 
 ---
 
 ## Agenda
 
-1. What is this talk is NOT about
-2. What is it about
-3. 3 learning principles
-4. 1 example each how AI can help you
-5. Summarise
+1. Introduction
+2. Main Topic 1
+3. Main Topic 2
+4. Discussion
+5. Conclusion
 6. Q&A
 
 ---
 
-# What this is NOT about
+# Section 1: Introduction
 
 <!-- Your content here -->
 
-- Not an Engineering Lecture on ML/Deep Learning / LLMs etc
-- Not about all the tools available and which is the best one to use
+- Key point 1
+- Key point 2
+- Key point 3
 
-
-> We do not have a problem with AI itself but a problem of INTEGRATION
-
----
-
-
-
-# Whats it About
-
-How to face the Astro Teller Curve
+> Important quote or highlight
 
 ---
 
+## Subsection Example
 
-# Astro-Teller Curve
+### Topic Details
+
+Regular content goes here with:
+- Bullet points
+- **Bold text** for emphasis
+- *Italic text* for subtle emphasis
+- `Code or technical terms`
+
+---
+
+# Section 2: Main Content
+
+<!-- Two column layout example -->
+
+<div class="two-columns">
+<div>
+
+### Left Column
+
+- Point 1
+- Point 2
+- Point 3
+
+</div>
+<div>
+
+### Right Column
+
+- Point A
+- Point B
+- Point C
+
+</div>
+</div>
 
 ---
 
-![bg contain](assets/astro-teller-curve.png)
+## Data Visualization Example
+
+### Performance Metrics
+
+| Metric | Q1 | Q2 | Q3 | Q4 |
+|--------|----|----|----|----|
+| Growth | 15% | 23% | 31% | 28% |
+| Satisfaction | 87% | 89% | 92% | 94% |
+| Retention | 78% | 82% | 85% | 88% |
 
 ---
-# Principle 1 : Deliberate Practice
 
----
+## Key Takeaways
 
-# Principle 2 : Multimodal Interaction
+1. **First Important Point**
+   - Supporting detail
+   - Example or evidence
 
----
-# Principle 3 : Zone of Proximal Development
+2. **Second Important Point**
+   - Supporting detail
+   - Example or evidence
+
+3. **Third Important Point**
+   - Supporting detail
+   - Example or evidence
 
 ---
 
@@ -219,11 +265,11 @@ How to face the Astro Teller Curve
 
 ## Summary
 
-- AI can be used helpfully if properly planned
-- Cognitive traps: cognitive debt, cognitive obesity, inappropriate cognitive offloading
-- It is imperative we take action today
+- Main conclusion 1
+- Main conclusion 2
+- Main conclusion 3
 
-> "AI can be a FRIEND and a FOE" - MTD Lakshan
+> "Wisdom shines forth everywhere" - Buddhih Sarvatra Bhrajate
 
 ---
 
@@ -247,3 +293,66 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 - Infinite Learner AI: [ilai.academy](https://ilai.academy/)
 
 </div>
+
+---
+
+<!--
+  TEMPLATE NOTES:
+
+  1. Branch off for each new presentation: git checkout -b <presentation-name>
+  2. Edit content while maintaining brand styling
+  3. Use Claude Code for formatting assistance
+  4. Export using: marp master-template.md --pdf
+  5. Never merge presentation branches back to master
+
+  CUSTOMIZATION:
+  - Adjust colors in the style section at the top
+  - Add your organization logos by downloading from links-to-assets.md
+  - Modify footer content as needed
+  - Add custom CSS for specific layouts
+
+  IMAGE SYNTAX QUICK REFERENCE:
+
+  Inline images:
+  - ![w:400px](image.jpg) - Resize inline image
+
+  Background images:
+  - ![bg](image.jpg) - Full background
+  - ![bg contain](image.jpg) - Fit background
+
+  Split backgrounds (content + image side-by-side):
+  - ![bg right:33%](image.jpg) - Image 33% on right, content on left
+  - ![bg left:40%](image.jpg) - Image 40% on left, content on right
+  - Perfect for QR codes, diagrams, photos alongside text
+
+  Two-column text layouts:
+  - Use <div class="two-columns"> for equal-width text columns
+  - See "Section 2: Main Content" for example
+
+  Image filters:
+  - ![blur:10px](image.jpg)
+  - ![brightness:1.5 sepia:50%](image.jpg) - Multiple filters
+
+  DIRECTIVES QUICK REFERENCE:
+
+  Spot directives (underscore = current slide only):
+  - <!-- _paginate: false --> - Hide page number on this slide
+  - <!-- _class: lead --> - Apply class to this slide
+  - <!-- _backgroundColor: black --> - Background color for this slide
+
+  Pagination options:
+  - paginate: true - Show and increment
+  - paginate: false - Hide but increment
+  - paginate: skip - Hide and don't increment
+  - paginate: hold - Show but don't increment
+
+  Headers and footers:
+  - header: '**Title**' - Add header to all slides
+  - footer: 'Name | Date' - Add footer to all slides
+
+  Styling:
+  - <style>...</style> - Global style for all slides
+  - <style scoped>...</style> - Style for current slide only
+
+  See core-foundation/directives.md and core-foundation/theming.md for details
+-->
