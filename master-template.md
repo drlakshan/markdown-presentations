@@ -203,6 +203,10 @@ How to face the Astro Teller Curve
 
 ![bg contain](assets/astro-teller-curve.png)
 
+<!--
+Astro Teller serves as the Captain of Moonshots (CEO) at X, Alphabet's moonshot factory. He leads efforts to develop ambitious, groundbreaking ideas into reality through science and technology. The "Astro Teller curve" metaphorically represents his approach to innovation, emphasizing radical problem-solving and audacious goals. This philosophy encourages tackling immense challenges rather than incremental improvements. His leadership focuses on fostering an environment where seemingly impossible projects, or "moonshots," can flourish.
+-->
+
 ---
 # Principle 1 : Deliberate Practice
 
