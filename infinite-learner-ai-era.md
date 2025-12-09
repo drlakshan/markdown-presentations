@@ -215,6 +215,47 @@ How to face the Astro Teller Curve
 
 ---
 
+## What is the Zone of Proximal Development?
+
+**The "Goldilocks Zone" of Learning**
+
+- Too easy → No learning occurs
+- Too hard → Learner gives up (no hope)
+- **Just right** → Optimal growth with support
+
+### Key Insights (Vygotsky & Bruner)
+
+- Learning occurs through **scaffolding** from teachers, peers, or tools
+- Temporary support structures gradually removed as competence develops
+- In medical education: continuously calibrate case complexity to learner's level
+- Adjust from **novice to expert** progressively
+
+> "From known to unknown, with the right support, students develop"
+
+---
+
+## How AI Amplifies ZPD
+
+### Personalized, Real-Time Zone Detection at Scale
+
+**What AI Enables:**
+- Continuously assess learner's current capability through interaction patterns
+- Identify precise ZPD boundaries dynamically
+- Adjust difficulty, hints, and explanations in real-time
+- Keep learners optimally challenged
+
+**For Medical Learners:**
+- Present case complexities matched to diagnostic reasoning level
+- Offer just-in-time knowledge retrieval when stuck
+- Provide graduated independence as competence grows
+
+### The Game Changer: **Infinite Patience & Availability**
+- Practice at 2 AM without fear of judgment
+- Immediate formative feedback
+- **Thousands of repetitions** vs. traditional apprenticeship limits
+
+---
+
 # Conclusion
 
 ## Summary
