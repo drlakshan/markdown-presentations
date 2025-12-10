@@ -483,3 +483,7 @@ Thank you!
 ---
 
 Happy presenting!
+
+
+## Presentation with a server
+marp -w -p infinite-learner-ai-era.md
