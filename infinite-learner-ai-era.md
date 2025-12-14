@@ -169,8 +169,8 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 1. What is this talk is NOT about
 2. What is it about
-3. 3 learning principles
-4. 1 example each how AI can help you
+3. Three learning principles
+4. One example each how AI can help you
 5. Summarise
 6. Q&A
 
@@ -208,7 +208,96 @@ How to face the Astro Teller Curve
 
 ---
 
+## What is Deliberate Practice?
+
+> **Deliberate Practice** is purposeful, systematic practice that focuses on improving specific aspects of performance through immediate feedback and constant refinement.
+
+**Key Characteristics:**
+- **Goal-directed** - Clear, specific objectives
+- **Focused attention** - Concentrated effort on skill development
+- **Immediate feedback** - Rapid assessment and correction
+- **Repeated refinement** - Iterative improvement cycles
+
+---
+
+## Origins: Ericsson's Framework
+
+**Anders Ericsson's Research (1993):**
+- Expert performance requires ~10,000 hours of **deliberate practice**
+- Not just repetition - requires structured, goal-oriented effort
+- Feedback is critical for improvement
+- Expertise develops through conscious refinement
+
+**Traditional Limitations:**
+- Requires expert mentors (scarce resource)
+- Delayed feedback cycles
+- Limited scalability
+- High cognitive load on mentors
+
+---
+
+# Core Components of Deliberate Practice
+
+---
+
+## The Four Essential Components
+
+<div class="two-columns">
+<div>
+
+### 1. Task Breakdown
+- Decompose complex skills into manageable parts
+- Identify specific competencies
+- Create learning modules
+
+### 2. Outcome Definition
+- Establish clear success criteria
+- Define measurable objectives
+- Set performance benchmarks
+
+</div>
+<div>
+
+### 3. Feedback Loops
+- Provide timely performance assessment
+- Identify gaps and errors
+- Guide corrective actions
+
+### 4. Iterative Refinement
+- Practice with corrections
+- Progressive difficulty scaling
+- Mastery before advancement
+
+</div>
+</div>
+
+---
 # Principle 2 : Multimodal Interaction
+
+---
+
+## How AI Amplifies Multimodal Learning
+
+### Learning Through Multiple Sensory Channels
+
+**What Multimodal Interaction Means:**
+- Text, voice, images, diagrams, videos - all working together
+- Different learners, different preferred modalities
+- Rich, contextual understanding through combined inputs
+
+**How AI Enables This:**
+- **Convert between modalities seamlessly** - Ask questions via voice, get visual diagrams
+- **Analyze images and videos** - Upload X-rays, get diagnostic reasoning explanations
+- **Generate custom visuals** - Request anatomical diagrams tailored to your question
+- **Interactive conversations** - Natural dialogue, not rigid keyword searches
+
+**For Medical Learners:**
+- Upload clinical photos → Instant differential diagnoses with explanations
+- Describe symptoms verbally → Visual anatomy lessons appear
+- Sketch rough diagrams → AI refines and annotates them
+- Mix text notes + voice recordings → Structured study guides
+
+> **The Power:** AI meets you in YOUR preferred learning mode, then expands it
 
 ---
 # Principle 3 : Zone of Proximal Development
