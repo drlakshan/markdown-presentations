@@ -228,6 +228,7 @@ How to face the Astro Teller Curve
 - Feedback is critical for improvement
 - Expertise develops through conscious refinement
 
+---
 **Traditional Limitations:**
 - Requires expert mentors (scarce resource)
 - Delayed feedback cycles
@@ -241,6 +242,13 @@ How to face the Astro Teller Curve
 ---
 
 ## The Four Essential Components
+### 1. Task Breakdown
+
+### 2. Outcome Definition
+### 3. Feedback Loops
+### 4. Iterative Refinement
+---
+
 
 <div class="two-columns">
 <div>
@@ -272,6 +280,42 @@ How to face the Astro Teller Curve
 </div>
 
 ---
+
+## Deliberate Practice in Action: Example
+
+### AI-Powered Learning Guide
+
+---
+
+<!-- _paginate: false -->
+
+![bg contain](assets/Screenshot%20Deliberate%20Practice-1.png)
+
+---
+
+<!-- _paginate: false -->
+
+![bg contain](assets/Screenshot%20Deliberate%20Practice%20-2.png)
+
+---
+
+<!-- _paginate: false -->
+
+![bg contain](assets/Screenshot%20Deliberate%20Practice%20-3.png)
+
+---
+
+<!-- _paginate: false -->
+
+![bg contain](assets/Screenshot%20Deliberate%20Practice%20-4.png)
+
+---
+
+<!-- _paginate: false -->
+
+![bg contain](assets/Screenshot%20Deliberate%20Practice%20-5.png)
+
+---
 # Principle 2 : Multimodal Interaction
 
 ---
@@ -284,6 +328,7 @@ How to face the Astro Teller Curve
 - Text, voice, images, diagrams, videos - all working together
 - Different learners, different preferred modalities
 - Rich, contextual understanding through combined inputs
+---
 
 **How AI Enables This:**
 - **Convert between modalities seamlessly** - Ask questions via voice, get visual diagrams
@@ -296,6 +341,7 @@ How to face the Astro Teller Curve
 - Describe symptoms verbally → Visual anatomy lessons appear
 - Sketch rough diagrams → AI refines and annotates them
 - Mix text notes + voice recordings → Structured study guides
+---
 
 > **The Power:** AI meets you in YOUR preferred learning mode, then expands it
 
@@ -311,6 +357,8 @@ How to face the Astro Teller Curve
 - Too easy → No learning occurs
 - Too hard → Learner gives up (no hope)
 - **Just right** → Optimal growth with support
+
+---
 
 ### Key Insights (Vygotsky & Bruner)
 
@@ -332,12 +380,12 @@ How to face the Astro Teller Curve
 - Identify precise ZPD boundaries dynamically
 - Adjust difficulty, hints, and explanations in real-time
 - Keep learners optimally challenged
-
+---
 **For Medical Learners:**
 - Present case complexities matched to diagnostic reasoning level
 - Offer just-in-time knowledge retrieval when stuck
 - Provide graduated independence as competence grows
-
+---
 ### The Game Changer: **Infinite Patience & Availability**
 - Practice at 2 AM without fear of judgment
 - Immediate formative feedback
