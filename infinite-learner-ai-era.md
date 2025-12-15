@@ -165,6 +165,12 @@ MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
 
 ---
 
+<!-- _paginate: false -->
+
+![bg contain](assets/credentials.png)
+
+---
+
 ## Agenda
 
 1. What is this talk is NOT about
