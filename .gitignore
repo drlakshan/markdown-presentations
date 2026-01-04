@@ -2,6 +2,7 @@
 exports/
 *.pdf
 *.html
+!index.html
 *.pptx
 
 # macOS
