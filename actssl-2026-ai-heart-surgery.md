@@ -100,6 +100,9 @@ style: |
     font-size: 0.9em;
     line-height: 1.6;
   }
+  .author-info .qualifications {
+    font-size: 0.75em;
+  }
   .contact-info {
     font-size: 0.8em;
   }
@@ -133,7 +136,7 @@ Presented by **Dr. MTD Lakshan**
 <div class="author-info">
 
 **Dr. MTD LAKSHAN**
-MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS
+<span class="qualifications">MBBS MS DOHNS FEB ORL HNS FRCS Ed ORL HNS</span>
 
 - Board Certified Consultant in ENT and Head and Neck Surgery
 - Senior Lecturer in Medical Education, University of Kelaniya
