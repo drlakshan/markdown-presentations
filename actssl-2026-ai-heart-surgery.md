@@ -126,6 +126,9 @@ style: |
 Presented by **Dr. MTD Lakshan**
 
 ---
+Who am I what are we doing here?
+
+---
 
 <!-- Author slide with credentials -->
 
@@ -148,6 +151,20 @@ Presented by **Dr. MTD Lakshan**
 
 ---
 
+## The Promise
+
+### 1. Potential
+### 2. Pitfalls
+### 3. Practicality
+
+
+
+
+
+
+
+---
+
 ## What This is NOT About
 
 - Not about robotic surgery systems
@@ -165,6 +182,13 @@ Presented by **Dr. MTD Lakshan**
 - **Free or low-cost** AI accessible to any surgeon
 - **Practical prompting** techniques
 - **Real examples** from surgical practice
+
+---
+
+## Three Sections
+### 1. AI Prompting for Surgeons
+### 2. NotebookLM as a tool
+### 3. Practical tips on integrations
 
 ---
 
