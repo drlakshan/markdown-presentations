@@ -126,7 +126,7 @@ style: |
 Presented by **Dr. MTD Lakshan**
 
 ---
-Who am I what are we doing here?
+# Who am I what are we doing here?
 
 ---
 
@@ -334,33 +334,7 @@ Who am I what are we doing here?
 
 # Section 3: Practical Integration
 
----
 
-## A Surgeon's Daily AI Workflow
-
-**Morning (7:00 AM - Pre-rounds):**
-- ChatGPT: "Summarize overnight literature alerts"
-- **5 minutes**, stay current
-
-**Pre-Op (8:00 AM):**
-- NotebookLM: Review audio summary of similar cases
-- **10 minutes**, mental preparation
-
-**Between Cases (12:00 PM):**
-- ChatGPT: "Draft consult note for 70yo with severe AS"
-- **3 minutes**, structure thinking
-
----
-
-## Daily Workflow (continued)
-
-**Evening (6:00 PM):**
-- NotebookLM: Upload today's interesting case notes + papers
-- Generate summary for learning file
-- **10 minutes**, deliberate practice
-
-**Total AI Time:** 30 minutes
-**Total Value:** Equivalent to 3-4 hours of traditional work
 
 ---
 
@@ -505,11 +479,10 @@ Who am I what are we doing here?
 
 ## Final Thought
 
-> "AI won't replace cardiac surgeons. But cardiac surgeons who use AI will replace those who don't."
+
 
 > "The heart of surgery remains human judgment, compassion, and skill. AI simply frees us from computational drudgery to focus on what we do best—heal patients."
 
-> "Wisdom shines forth everywhere" - Buddhih Sarvatra Bhrajate
 
 ---
 
