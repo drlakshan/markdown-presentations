@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "e1dfe004ed611bd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "38841cf7906397c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dcff0d54754019a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "malaysia-talk-improved-plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "malaysia-talk-improved-plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "267048e885828c6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6131f72e05b6c41b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76e596dbd73811bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5298d71675d33abc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c102d0a5ab16911c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "289b8a204a02bf0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f94dfdc4aa376ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5427259c2c728e92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "malaysia-talk-improved-plan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for malaysia-talk-improved-plan"
+            }
+          },
+          {
+            "id": "d6e8835865d5dda4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "malaysia-talk-improved-plan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from malaysia-talk-improved-plan"
+            }
+          },
+          {
+            "id": "f1bbb57c272f1a1a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "de2bc670a42e768e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a4dd6dedfd16966a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "malaysia-talk-improved-plan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of malaysia-talk-improved-plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "0dcff0d54754019a",
+  "lastOpenFiles": [
+    "malaysia-notebooklm-presentation.md",
+    "Zettelkasten Notes The Clinical Management of Unilateral Vocal Cord Palsy (UVCP).md",
+    "plan for talk to malaysia.md",
+    "malaysia-talk-improved-plan.md",
+    "test-column.md",
+    "infinite-learner-ai-era.pdf",
+    "core-foundation/sample-purple-presentation.md",
+    "core-foundation/PRESENTATION-WORKFLOW-SOP.md",
+    "core-foundation/plan.md"
+  ]
+}
